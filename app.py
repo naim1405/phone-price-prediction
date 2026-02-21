@@ -2,7 +2,6 @@ import gradio as gr
 import pandas as pd
 import pickle
 
-# model_path = "mobile_price_predictor.pkl"
 model_path = "./model.pkl"
 
 with open(model_path, "rb") as f:
